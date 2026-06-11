@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gowtham Portfolio</title>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- AOS animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+  <!-- Typed JS -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+<!-- BACKGROUND -->
+<div class="bg"></div>
+
+<!-- NAV -->
+<header>
+  <h2 class="logo">Gowtham</h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+
+  <div class="hero-text" data-aos="fade-right">
+    <h1>Hi, I'm Gowtham 👋</h1>
+
+    <h2>
+      I'm a <span id="typed"></span>
+    </h2>
+
+    <p>Building modern web apps + learning AI/ML</p>
+
+    <div class="buttons">
+      <button onclick="scrollToSection('projects')">View Work</button>
+      <button class="outline" onclick="scrollToSection('contact')">Contact</button>
+    </div>
+  </div>
+
+  <div class="hero-img" data-aos="zoom-in">
+    <img src="assets/profile.png" alt="profile"/>
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="glass" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>
+    I am a 2nd-year engineering student learning Full Stack Development and AI/ML.
+    I love building real-world projects.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <h2 data-aos="fade-up">Skills</h2>
+
+  <div class="grid">
+    <div class="card" data-aos="zoom-in">HTML</div>
+    <div class="card" data-aos="zoom-in">CSS</div>
+    <div class="card" data-aos="zoom-in">JavaScript</div>
+    <div class="card" data-aos="zoom-in">React</div>
+    <div class="card" data-aos="zoom-in">Python</div>
+    <div class="card" data-aos="zoom-in">AI/ML</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <h2 data-aos="fade-up">Projects</h2>
+
+  <div class="projects">
+
+    <div class="project" data-aos="flip-left">
+      <h3>Resume AI Analyzer</h3>
+      <p>AI tool that analyzes resumes and gives feedback</p>
+    </div>
+
+    <div class="project" data-aos="flip-left">
+      <h3>Portfolio Website</h3>
+      <p>Modern animated portfolio with glass UI</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="glass" data-aos="fade-up">
+  <h2>Contact</h2>
+  <p>Email: gowtham@example.com</p>
+</section>
+
+<footer>
+  <p>Made with ❤️ by Gowtham</p>
+</footer>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
