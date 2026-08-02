@@ -1,7 +1,6 @@
 // typing effect
 var typed = new Typed("#typed", {
   strings: [
-    "AI Full Stack Developer",
     "Frontend Developer",
     "Python Enthusiast",
     "Problem Solver"
