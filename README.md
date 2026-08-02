@@ -1,59 +1,97 @@
-# FUTURE_FS_01 - Personal Portfolio Website
+# 🌐 Gowtham's Developer Portfolio
 
-## 📌 Project Overview
+A modern, responsive, and animated personal portfolio website showcasing my skills, projects, and journey as an aspiring AI Full Stack Developer.
 
-A modern and responsive personal portfolio website built using React. It showcases my skills, projects, certifications, resume, and contact information in a clean and professional layout.
+## 🚀 Live Demo
 
-This project was developed as **Task 1** of the **Future Interns Full Stack Web Development Internship**.
-
----
-
-## 🚀 Features
-
-- Responsive design
-- About Me section
-- Skills section
-- Projects showcase
-- Resume section
-- Contact section
-- Clean and modern UI
-- Easy navigation
+🔗 https://gowthamvarasala45-max.github.io/FUTURE_FS_01/
 
 ---
 
-## 🛠️ Tech Stack
+## 📌 About
 
-- React.js
-- JavaScript
+This portfolio was built to present my technical skills, projects, and contact information in a clean and interactive way. It features smooth animations, a modern glassmorphism design, and responsive layouts to provide a professional user experience.
+
+---
+
+## ✨ Features
+
+- Modern and responsive UI
+- Animated gradient background
+- Typing text animation
+- Smooth scrolling navigation
+- Glassmorphism design
+- Skills showcase
+- Projects section
+- Resume viewer
+- Contact section with GitHub and LinkedIn links
+- Scroll animations using AOS
+
+---
+
+## 🛠️ Built With
+
 - HTML5
 - CSS3
-- Vite
+- JavaScript (ES6)
+- AOS (Animate On Scroll)
+- Typed.js
 
 ---
 
 ## 📂 Project Structure
 
 ```
-src/
- ├── components/
- ├── assets/
- ├── App.jsx
- ├── main.jsx
- └── index.css
+portfolio/
+│── index.html
+│── style.css
+│── script.js
+│── assets/
+│   ├── profile.png
+│   └── Gowtham_Resume.pdf
 ```
 
 ---
 
-## 📬 Contact
+## 📷 Sections
 
-**Name:** Gowtham Varasala
-
-GitHub: https://github.com/gowthamvarasala45-max
-
-LinkedIn: https://www.linkedin.com/in/gowtham-v-85245a323?utm_source=share_via&utm_content=profile&utm_medium=member_android
+- Home
+- About
+- Skills
+- Projects
+- Contact
 
 ---
 
-## 📄 License
+## 📚 Future Improvements
 
-This project was created for educational purposes as part of the Future Interns Full Stack Web Development Internship.
+- Add project showcase pages
+- Dark/Light mode
+- Project filtering
+- Live project demos
+- React version of the portfolio
+- Backend contact form
+- More animations and UI enhancements
+
+---
+
+## 👨‍💻 Author
+
+**Gowtham Varasala**
+
+Aspiring AI Full Stack Developer passionate about building intelligent web applications and solving real-world problems through technology.
+
+### Connect With Me
+
+GitHub:
+https://github.com/gowthamvarasala45-max
+
+LinkedIn:
+https://www.linkedin.com/in/gowtham-v-85245a323?utm_source=share_via&utm_content=profile&utm_medium=member_android
+
+Email:
+gowthamvarasala45@gmail.com
+
+---
+
+⭐ If you like this project, consider giving it a star!
